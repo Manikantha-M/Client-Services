@@ -1,0 +1,22 @@
+{
+    "routes": [
+        {
+            "path": "home",
+            "component": "homeComponent"
+        },
+        {
+            "path": "child",
+            "component": "childpageComponent"
+        },
+        {
+            "path": "''",
+            "redirectTo": "home",
+            "pathMatch": "full",
+            "default": true
+        },
+        {
+            "path": "**",
+            "component": "PageNotFoundComponent"
+        }
+    ]
+}

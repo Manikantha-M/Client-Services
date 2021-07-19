@@ -1,0 +1,13 @@
+/*Importing default angular material css theme. */
+
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+@import "nDefaults.scss";
+
+
+.section-center{
+    width: 80vw;
+    margin: 2rem 0;
+}
+.tit-clr{
+    color: purple;
+}

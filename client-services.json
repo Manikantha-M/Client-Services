@@ -1,0 +1,15 @@
+{
+    "displayName": "Client-Services",
+    "appName": "client-services",
+    "description": "Client Services",
+    "lastModified": "2021-07-14T09:08:10.283Z",
+    "imgSourcePath": "",
+    "version": "1.0.0",
+    "appType": "classic",
+    "templateName": "blank",
+    "createDate": "2021-07-13T22:45:09.616Z",
+    "analyticsId": "1ceae95f-a56b-6676-dc7d-d7da043a1308",
+    "createdStudioVersion": "7.8.0",
+    "isCorrupt": false,
+    "oldAppName": "services"
+}

@@ -1,0 +1,18 @@
+<mat-grid-list cols="1">
+  <div fxLayout="column wrap" fxLayoutAlign="center center" [fxShow]="true" [fxHide]="false">
+    <h1 class="tit-clr">
+      Client service</h1>
+    <form [formGroup]="registrationForm">
+      <div fxLayout="column wrap" fxLayoutAlign="start end" [fxShow]="true" [fxHide]="false">
+        <mat-form-field color="primary" [appearance]="&apos;outline&apos;" [floatLabel]="&apos;auto&apos;" [hideRequiredMarker]="false">
+          <input matInput placeholder="Input" [required]="false" formControlName="firstName">
+          <mat-label>firstname</mat-label>
+        </mat-form-field>
+        <mat-form-field [appearance]="&apos;outline&apos;" [floatLabel]="&apos;auto&apos;" [hideRequiredMarker]="false">
+          <input matInput placeholder="Input" [required]="false" formControlName="lastName">
+          <mat-label>lastname</mat-label>
+        </mat-form-field>
+      </div><button mat-raised-button color="primary" (click)="onSubmit()">Submit</button>
+    </form>
+  </div>
+</mat-grid-list>
